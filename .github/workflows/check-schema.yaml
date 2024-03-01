@@ -20,9 +20,9 @@ jobs:
     # https://docs.github.com/en/actions/reference/encrypted-secrets
     # https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idstepsenv
     env:
-      APOLLO_KEY: ${{ secrets.APOLLO_KEY }}
-      APOLLO_GRAPH_REF: ${{ vars.APOLLO_GRAPH_REF }}
-      APOLLO_SUBGRAPH_NAME: ${{ vars.APOLLO_SUBGRAPH_NAME }}
+      APOLLO_KEY: service:peotic-plates:ZR_mZ3lmksIX_hs4r0tB7A
+      APOLLO_GRAPH_REF: peotic-plates@current
+      APOLLO_SUBGRAPH_NAME: recipes
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
