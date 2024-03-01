@@ -41,4 +41,4 @@ jobs:
 
       # Step: Run schema checks
       - name: Run schema checks
-        run: rover subgraph check ${{ env.APOLLO_GRAPH_REF }} --schema schema.graphql --name ${{ vars.APOLLO_SUBGRAPH_NAME }}
+        run: rover subgraph check ${{ env.APOLLO_GRAPH_REF }} --schema schema.graphql --name recipes
