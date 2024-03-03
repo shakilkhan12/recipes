@@ -38,7 +38,7 @@ type Ingredient {
   id: ID!
   "The name of an ingredient"
   name: String
-  "A potential substitute for the ingredient, if available"
+  "A potential substitute for the ingredient, if available updteds"
   substitute: String
   "detailedDescription field"
   detailedDescription: String
